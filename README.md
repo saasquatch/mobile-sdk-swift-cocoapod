@@ -156,7 +156,7 @@ We provide a `completionHandler` which will be called with `userInfo` and `error
 In our completionHandler, we will parse through the returned data and save anything useful for later. 
 
 ```swift
-completionHandler: {(userInfo: AnyObject?, error: NSError?} in
+completionHandler: {(userInfo: AnyObject?, error: NSError?) in
     
     // First, check if an error occurred
     if error != nil {
