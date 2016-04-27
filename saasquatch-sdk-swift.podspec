@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
 
-    
+  s.source = { :http => 'https://github.com/saasquatch/mobile-sdk-swift-cocoapod/blob/master/saasquatch.zip?raw=true' } 
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
