@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "saasquatch-sdk-swift"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0-beta2"
   s.summary      = "The Swift version of the Referral SaaSquatch SDK"
 
   # This description is used to generate tags and improve search results.
@@ -74,9 +74,8 @@ Pod::Spec.new do |s|
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
-  #
 
-  s.source       = { :git => "https://github.com/saasquatch/mobile-sdk-swift-cocoapod.git", :tag => "1.0.0" }
+    
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +89,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "saasquatch.framework/Headers/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,8 +103,8 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "saasquatch.framework"
-  s.vendored_frameworks = "saasquatch.framework"
+  s.preserve_paths = "saasquatch/saasquatch.framework"
+  s.vendored_frameworks = "saasquatch/saasquatch.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
