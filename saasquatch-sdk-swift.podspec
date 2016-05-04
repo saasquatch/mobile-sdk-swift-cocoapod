@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "saasquatch-sdk-swift"
-  s.version      = "1.0.3"
+  s.version      = "1.0.3beta1"
   s.summary      = "The Swift version of the Referral SaaSquatch SDK"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "saasquatch/saasquatch.framework/Headers/*.h"
+  # s.public_header_files = "saasquatch/saasquatch.framework/Headers/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
