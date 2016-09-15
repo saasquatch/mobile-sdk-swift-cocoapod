@@ -6,43 +6,39 @@
 	<dict>
 		<key>Headers/saasquatch-Swift.h</key>
 		<data>
-		taoblxbTOrmm7dPyJP4WCs36yt0=
-		</data>
-		<key>Headers/saasquatch.h</key>
-		<data>
-		xUNiuZ9vJbSt37ESZawQV/K8yOg=
+		iZ0p4ETGiHGHsyB+ARNvtYaUckw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2bJi/wcoksL7LR7H4yfe4ZWt7AY=
+		6b1cpnI3Vp5dlQCx7/sNkZ2kWfg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		4Bfc7MW7vIfwiMjCPvvL6IIkZRE=
+		ptRssHO27e/Yumvz1ibr47QLLgg=
 		</data>
 		<key>Modules/saasquatch.swiftmodule/arm.swiftdoc</key>
 		<data>
-		mC9Z2YIsDh6O06wzZIFmGnXTLYY=
+		tIhHGZpIVOhMHM+8lVOGVfPDp4I=
 		</data>
 		<key>Modules/saasquatch.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ARClJ4S2On1v2J3I1WJApe/Jx88=
+		Op5dSO3BBELIGPNkb8H6y/prEuc=
 		</data>
 		<key>Modules/saasquatch.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		tgca4ZzK0mBMfjoLIBGbJp6sHdA=
+		bgb17hk/lgpQDY5srxXpeo0ZT5E=
 		</data>
 		<key>Modules/saasquatch.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		zJIppiYd7qdEimoGQd4X+fSwRWU=
+		fTSwm1RzH3BH5vyQOcop76o0MuI=
 		</data>
 		<key>ios_sdk_screen1.png</key>
 		<data>
-		9NufQC0BxjHL1ozkbR60tKw6a14=
+		npOaro3aAHLvrUXb03dGE512pcU=
 		</data>
 		<key>ios_sdk_screen2.png</key>
 		<data>
-		45OHrxN9lpm39J4bCTU+KA+Z8mQ=
+		hs3TMD+fTUZZmz5WNJuBzp7uC28=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,99 +47,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			taoblxbTOrmm7dPyJP4WCs36yt0=
+			iZ0p4ETGiHGHsyB+ARNvtYaUckw=
 			</data>
 			<key>hash2</key>
 			<data>
-			09wI4M28PSN0UfutlNgpGfHZWthlrU5KGihpBTkzNbQ=
-			</data>
-		</dict>
-		<key>Headers/saasquatch.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xUNiuZ9vJbSt37ESZawQV/K8yOg=
-			</data>
-			<key>hash2</key>
-			<data>
-			/KvI1zwOjEp7bLTMvOWaIgVFXCDGUIHUzXGoY4yRKGI=
+			zx9+NsTcEQEgcGXb18XTP7cZ2UWpOTg2RsMCdm/f6X0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4Bfc7MW7vIfwiMjCPvvL6IIkZRE=
+			ptRssHO27e/Yumvz1ibr47QLLgg=
 			</data>
 			<key>hash2</key>
 			<data>
-			D2Qz27j2fLlrvAMt7MPM1r57Cw6y/krXzgCy/ttvXuc=
+			I8YA5r5azzkFNsj9s6AK4VzVHxcU5CysHGjyS9M8ED0=
 			</data>
 		</dict>
 		<key>Modules/saasquatch.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mC9Z2YIsDh6O06wzZIFmGnXTLYY=
+			tIhHGZpIVOhMHM+8lVOGVfPDp4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			mTIBV/ykf06/6/PiCtKSIG/fxZe4tKGTBaXpMFmuDs4=
+			GAXJDua4ypsKaoYvn+rAhwIp92i0pKuh6ITwijbL6OM=
 			</data>
 		</dict>
 		<key>Modules/saasquatch.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ARClJ4S2On1v2J3I1WJApe/Jx88=
+			Op5dSO3BBELIGPNkb8H6y/prEuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NadfxWWJFaFzBkCH/iYJG9LoQCnK734kbYiXGy7dZ60=
+			wBq9sgGBEqPJJ5SVU/d81/xxYvh/wRA8am6LSenRfWA=
 			</data>
 		</dict>
 		<key>Modules/saasquatch.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tgca4ZzK0mBMfjoLIBGbJp6sHdA=
+			bgb17hk/lgpQDY5srxXpeo0ZT5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			iQq60i0cJ7llsvpNWikwbWT9T3Tpy18vqv2DFHdBjYs=
+			nQiTIzxCenC9a7dw0XISpVEaIsaZVjkDmiAUXUMXyFw=
 			</data>
 		</dict>
 		<key>Modules/saasquatch.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zJIppiYd7qdEimoGQd4X+fSwRWU=
+			fTSwm1RzH3BH5vyQOcop76o0MuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			jz9C/Nia/I/7ASMt6/ymCTkQlvRbHG2/dKcEVRZ1DKc=
+			8k6J+xLIaKVyXqzQ+muYb0X2flp8R0Fn9Bz8HjFf9q8=
 			</data>
 		</dict>
 		<key>ios_sdk_screen1.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9NufQC0BxjHL1ozkbR60tKw6a14=
+			npOaro3aAHLvrUXb03dGE512pcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3H+M82XffpQymKeR24fhFKeKzvE3udWmJvf+QbUHU7U=
+			7FJj572j7eYKlrfLmtTz6foHnGlatYg5etkBUvwIC7Q=
 			</data>
 		</dict>
 		<key>ios_sdk_screen2.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			45OHrxN9lpm39J4bCTU+KA+Z8mQ=
+			hs3TMD+fTUZZmz5WNJuBzp7uC28=
 			</data>
 			<key>hash2</key>
 			<data>
-			eA6ngb6XY4h3sQK0KO+G5xlli+jS1BVvUsPenSv2/WU=
+			U9TyGnHYPfzLQ7PhOLOqNM+rIweYj9139gKIAo8EXr4=
 			</data>
 		</dict>
 	</dict>
