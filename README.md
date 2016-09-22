@@ -4,7 +4,7 @@ The Referral SaaSquatch iOS SDK integrates a referral program into your iOS app.
 
 This repository containts the Referral SaaSquatch iOS SDK `saasquatch.framework` binaries for iOS apps written in Swift.
 
-To download, select the `Download ZIP` option from the green `Clone or download` drop-down.
+To download the framework binary, go to the [releases tab](https://github.com/saasquatch/mobile-sdk-swift-cocoapod/releases) and select the download that corresponds with the version of Swift being used in your project.
 
 Resources
 ---------
