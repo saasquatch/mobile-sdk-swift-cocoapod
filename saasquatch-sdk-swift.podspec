@@ -14,7 +14,7 @@ This SDK was built from Referral SaaSquatch's open endpoints. The open endpoints
 
   s.ios.deployment_target = '10.0'
   s.source_files = 'saasquatch/saasquatch/Saasquatch.swift'
-  s.preserve_paths = "saasquatch/saasquatch/Saasquatch.swift'
+  s.preserve_paths = 'saasquatch/saasquatch/Saasquatch.swift'
 
 
 
