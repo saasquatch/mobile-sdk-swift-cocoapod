@@ -260,6 +260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = referralsaasquatch.saasquatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "saasquatch-bridging-header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -281,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = referralsaasquatch.saasquatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "saasquatch-bridging-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +306,7 @@
 				A48770941EF095C10032A88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
