@@ -1,4 +1,7 @@
-== 1.1.0 2017-06-17
+== 1.1.1 2017-06-17
+* Fixes bug where user upsert sends an error when Secure Mode is enabled. 
+
+== 1.1.0 2017-06-16
 * Adds support for user upsert, create cookie user, and get share links.
 * Adds support for enabled and disabled Secure Mode. With Secure Mode disabled, a JWT is not required for interacting with our open endpoints.
 
