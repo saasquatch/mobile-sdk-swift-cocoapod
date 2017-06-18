@@ -8,7 +8,7 @@ This SDK was built to interact with Referral Saasquatch. For more information, p
 
   s.homepage         = 'http://www.referralsaasquatch.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Trevor Lee' => 'trevor.lee@referralsaasquatch.com', 'Referral Saasquatch' => 'hello@saasquat.ch' }
+  s.author           = { 'Referral Saasquatch' => 'hello@saasquat.ch', 'Trevor Lee' => 'trevor.lee@referralsaasquatch.com', }
   s.source           = { :git => 'https://github.com/saasquatch/mobile-sdk-swift-cocoapod.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'saasquatch/classes/*.{swift,h}'
