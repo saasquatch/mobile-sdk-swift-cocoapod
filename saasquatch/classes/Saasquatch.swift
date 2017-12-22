@@ -15,20 +15,20 @@ open class Saasquatch {
     
     /**
      Saasquatch is the Referral Saasquatch iOS SDK which provides a set of mfunctions
-     for interfacing with Referral SaaSquatch.
-     It can register a user with Referral SaaSquatch, retrieve information about users and referral codes, validate referral codes,
-     apply referral codes to a user's account, create a cookie user, upsert a user, and get a users share links.
+     for interfacing with Referral SaaSquatch. 
+     It can register a user with Referral SaaSquatch, retrieve information about users and referral codes, validate referral codes, apply referral codes to a user's account,
+     create a cookie user, upsert a user, and get a users share links.
      */
     
     
     
-    fileprivate static let urlString = "https://app.referralsaasquatch.com/api/v1"
-    
+    public static var urlString = "https://app.referralsaasquatch.com/api/v1"
+
     fileprivate static let baseURL: URL = URL(string: urlString)!
     
     fileprivate static let session = URLSession(configuration: URLSessionConfiguration.default)
     
-    
+
     
     /**
      Create a user and account.
@@ -37,14 +37,14 @@ open class Saasquatch {
      
      - parameter tenant:            Identifies which tenant to connect to.
      - parameter userID:            ID to uniquely track users and let us handle accounts that are shared between users.
-     - parameter accountID:         ID to link a group of users together.
+     - parameter accountID:         ID to link a group of users together. 
      - parameter token:             The JWT to sign the request.
      - parameter userInfo:          A Foundation object from which to generate JSON for the request.
      - parameter completionHandler: A block object to be executed when the task finishes. This block has no return value.
      
      - Seealso: http://docs.referralsaasquatch.com/api/methods
      */
-    
+
     open class func registerUserForTenant(
         _ tenant: String,
         withUserID userID: String,
@@ -56,7 +56,7 @@ open class Saasquatch {
         let url = baseURL.appendingPathComponent("/\(tenant)/open/account/\(accountID)/user/\(userID)")
         
         var request = URLRequest(url: url)
-        
+   
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         if token != nil {
@@ -104,7 +104,7 @@ open class Saasquatch {
             } else {
                 let errorString = NSString(data: data!, encoding: encoding.rawValue)
                 let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: errorString!]
-                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo)
+                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo as? [String : Any])
                 completionHandler(nil, error)
                 return
             }
@@ -187,7 +187,7 @@ open class Saasquatch {
             } else {
                 let errorString = NSString(data: data!, encoding: encoding.rawValue)
                 let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: errorString!]
-                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo)
+                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo as? [String : Any])
                 completionHandler(nil, error)
                 return
             }
@@ -206,7 +206,7 @@ open class Saasquatch {
      - parameter token:             The JWT to sign the request.
      - parameter userInfo:          A Foundation object from which to generate JSON for the request.
      - parameter completionHandler: A block object to be executed when the task finishes. This block has no return value.
-     
+
      - Seealso: https://docs.referralsaasquatch.com/api/methods
      */
     
@@ -270,7 +270,7 @@ open class Saasquatch {
             } else {
                 let errorString = NSString(data: data!, encoding: encoding.rawValue)
                 let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: errorString!]
-                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo)
+                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo as? [String : Any])
                 completionHandler(nil, error)
                 return
             }
@@ -339,7 +339,7 @@ open class Saasquatch {
         let url = URL(string: urlString)
         if (url == nil) {
             let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: "A URL cannot be formed from the parameters"]
-            let error = NSError(domain: "Malformed URL", code: 0, userInfo: userInfo)
+            let error = NSError(domain: "Malformed URL", code: 0, userInfo: userInfo as? [String : Any])
             completionHandler(nil, error)
             return
         }
@@ -362,7 +362,7 @@ open class Saasquatch {
      
      - parameter referralCode:      The referral code of the user being looked up.
      - parameter tenant:            Identifies which tenant to connect to.
-     - parameter token:             The JWT to sign the request.
+     - parameter token:             The JWT to sign the request.     
      - parameter completionHandler: A block object to be executed when the task finishes. This block has no return value.
      
      - SeeAlso: http://docs.referralsaasquatch.com/api/methods
@@ -441,7 +441,7 @@ open class Saasquatch {
      - parameter token:             The JWT to sign the request.
      - parameter accountID:         ID to link a group of users together.
      - parameter userID:            ID to uniquely track users and let us handle accounts that are shared between users.
-     - parameter datePaid:          When included, filters the results either to the exact timestamp if only one value is given, or a range if devided by a comma.
+     - parameter datePaid:          When included, filters the results either to the exact timestamp if only one value is given, or a range if devided by a comma. 
      - parameter dateEnded:         When included, filters the results either to the exact timestamp if only one value is given, or a range if devided by a comma.
      - parameter referredStatus:    When included, filters the result to only include referred users with that status. Statuses that are accepted: PENDING, APPROVED or DENIED.
      - parameter referrerStatus:    When included, filters the result to only include referrers with that status. Statuses that are accepted: PENDING, APPROVED or DENIED.
@@ -513,7 +513,7 @@ open class Saasquatch {
         let url = URL(string: urlString)
         if (url == nil) {
             let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: "A URL cannot be formed from the parameters"]
-            let error = NSError(domain: "Malformed URL", code: 0, userInfo: userInfo)
+            let error = NSError(domain: "Malformed URL", code: 0, userInfo: userInfo as? [String : Any])
             completionHandler(nil, error)
             return
         }
@@ -543,7 +543,7 @@ open class Saasquatch {
      - parameter engagementMedium:  [OPTIONAL] Identifies which medium to return. Can be one of [NOCONTENT, EMBED, HOSTED, MOBILE, POPUP, DEMO_EMBED, DEMO, EMPTY, EMAIL]
      - parameter shareMedium:       [OPTIONAL] Identifies which sharelink to return. Can be one of [FACEBOOK, TWITTER, EMAIL, DIRECT, LINKEDIN, SMS, FBMESSENGER, WHATSAPP, REMINDER, UNKNOWN]
      - parameter completionHandler: A block object to be executed when the task finishes. This block has no return value.
-     
+    
      - SeeAlso: https://docs.referralsaasquatch.com/api/methods
      */
     
@@ -591,7 +591,7 @@ open class Saasquatch {
         
         let dataTask = saasquatchDataTaskStatusOKWithRequest(request as URLRequest, withCallback: completionHandler)
         dataTask.resume()
-        
+
     }
     
     
@@ -626,7 +626,7 @@ open class Saasquatch {
             } else {
                 let errorString = NSString(data: data!, encoding: encoding.rawValue)
                 let userInfo: [AnyHashable: Any] = [NSLocalizedDescriptionKey: errorString!]
-                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo)
+                let error = NSError(domain: "HTTP error", code: (httpResponse?.statusCode)!, userInfo: userInfo as? [String : Any])
                 completionHandler(nil, error)
                 return
             }
