@@ -1,3 +1,9 @@
+# Archived
+
+Replaced with https://github.com/saasquatch/squatch-ios
+
+<details><summary>Previous Readme</summary>
+
 # Referral SaaSquatch iOS SDK - Swift
 
 
@@ -13,3 +19,5 @@ Please refer to our [iOS SDK Quickstart Guide](https://docs.referralsaasquatch.c
 
 ## Sample App
 A sample app that shows how our iOS SDK can be integrated into your apps can be found [here](https://github.com/saasquatch/mobile-sdk-ios-sample). Instructions on how to set up and use our sample app have been included.
+  
+</details>
